@@ -314,7 +314,7 @@ export default function Home() {
                   お近くにお住まいでしたら、お気軽にどうぞ。
                 </p>
                 <p className="text-[#6B5E52] text-sm leading-relaxed">
-                  お散歩ついでに立ち寄るような感覚で来てもらえたら嬉しいです。
+                  お散歩ついでに立ち寄るような感覚で来てもらえたら嬉しいです。<br />
                   お気軽にご相談ください。
                 </p>
               </div>
@@ -345,7 +345,6 @@ export default function Home() {
 
               <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <Phone size={14} className="text-[#A0866A]" />
                   <span className="text-[#A0866A] text-xs tracking-widest uppercase">Contact</span>
                 </div>
                 <ul className="text-sm text-[#6B5E52] space-y-3">
