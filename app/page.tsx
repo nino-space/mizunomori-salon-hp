@@ -398,7 +398,7 @@ export default function Home() {
       ══════════════════════════════ */}
       <footer className="bg-[#2D2926] text-white/50 py-10 px-8 text-center">
         <p className="text-white/80 mb-2 tracking-widest text-sm">Mizunomori Salon</p>
-        <p className="text-xs">© 2024 Mizunomori Salon. All rights reserved.</p>
+        <p className="text-xs">© 2026 Mizunomori Salon. All rights reserved.</p>
       </footer>
 
     </main>
