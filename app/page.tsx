@@ -27,8 +27,6 @@ const IMG = {
   gallery2:   "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?w=500&h=700&fit=crop&q=80",
   // ギャラリー：ヘアケア用品の並び
   gallery3:   "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=500&h=700&fit=crop&q=80",
-  // アクセス：街並み・路地（外観ではなく雰囲気）
-  access:     "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&h=500&fit=crop&q=80",
 };
 
 export default function Home() {
@@ -289,12 +287,15 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-16 items-start">
             <div>
-              <div className="aspect-video relative overflow-hidden rounded mb-6">
-                <Image
-                  src={IMG.access}
-                  alt="街のイメージ"
-                  fill
-                  className="object-cover"
+              <div className="rounded overflow-hidden mb-6">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.536345387723!2d140.86196807632288!3d38.29023948229981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f89876823008717%3A0x75426b8d2f3c0f59!2z44CSOTgxLTA5NjIg5a6u5Z-O55yM5LuZ5Y-w5biC6Z2S6JGJ5Yy65rC044Gu5qOu77yR5LiB55uu77yR77yS4oiS77yS!5e0!3m2!1sja!2sjp!4v1774190472082!5m2!1sja!2sjp"
+                  width="100%"
+                  height="360"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>
               <div className="bg-white/70 rounded p-6 border border-[#D4C5B0]">
@@ -315,8 +316,8 @@ export default function Home() {
                   <span className="text-[#A0866A] text-xs tracking-widest uppercase">Address</span>
                 </div>
                 <p className="text-sm text-[#6B5E52] leading-loose">
-                  〒981-0962<br />
-                  宮城県仙台市青葉区水の森1-12-2
+                  〒XXX-XXXX<br />
+                  〇〇県〇〇市△△町1-2-3
                 </p>
               </div>
 
