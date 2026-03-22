@@ -61,7 +61,7 @@ export default function Home() {
             ただいま、と<br />言いたくなる<br />美容室。
           </h1>
           <p className="text-white/80 text-base md:text-lg leading-relaxed mb-8">
-            靴を脱いで、ゆっくりどうぞ。<br />
+            靴を脱いで、どうぞお上がりください。<br />
             キッズスペースもあるので、お子さま連れでも気兼ねなく。
           </p>
           <a
