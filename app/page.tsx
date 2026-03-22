@@ -45,7 +45,7 @@ export default function Home() {
             src={IMG.hero}
             alt="施術中の手元"
             fill
-            className="object-cover"
+            className="object-cover object-[center_20%]"
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#1a1410]/80 via-[#1a1410]/30 to-[#1a1410]/10" />
