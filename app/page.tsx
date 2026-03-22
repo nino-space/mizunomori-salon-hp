@@ -338,8 +338,8 @@ export default function Home() {
                   <span className="text-[#A0866A] text-xs tracking-widest uppercase">Hours</span>
                 </div>
                 <ul className="text-sm text-[#6B5E52] space-y-2">
-                  <li>火〜土　10:00 – 19:00</li>
-                  <li className="text-[#A0866A]">日・月　定休日</li>
+                  <li>月〜金　10:00 – 15:00 (14:00 ラストオーダー)</li>
+                  <li className="text-[#A0866A]">不定休　※土日祝はご相談ください</li>
                 </ul>
               </div>
 
