@@ -60,10 +60,21 @@ export default function Home() {
           >
             ただいま、と<br />言いたくなる<br />美容室。
           </h1>
-          <p className="text-white/80 text-base md:text-lg leading-relaxed">
+          <p className="text-white/80 text-base md:text-lg leading-relaxed mb-8">
             靴を脱いで、ゆっくりどうぞ。<br />
             キッズスペースもあるので、お子さま連れでも気兼ねなく。
           </p>
+          <a
+            href="https://line.me/R/ti/p/@415uyvcc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 bg-[#06C755] text-white px-8 py-4 rounded-full text-sm tracking-widest hover:bg-[#05b04c] transition-colors"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.630 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.630 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+            </svg>
+            LINEで予約する
+          </a>
         </div>
       </section>
 
@@ -89,10 +100,10 @@ export default function Home() {
             <div className="border-t border-[#D4C5B0] pt-6">
               <span className="text-[#A0866A] text-xs tracking-widest mb-3 block">01</span>
               <h3 className="text-lg mb-3" style={{ fontWeight: 400 }}>
-                光のぬくもりに包まれた空間
+                木のぬくもりに<br />包まれた空間
               </h3>
               <p className="text-[#6B5E52] text-sm leading-relaxed">
-                古民家をそのまま活かした、居心地のいいサロン。
+                古い梁や床板を活かした、居心地のいいサロン。
                 気取らず、ありのままでいられる場所です。
               </p>
             </div>
@@ -112,7 +123,7 @@ export default function Home() {
             <div className="border-t border-[#D4C5B0] pt-6">
               <span className="text-[#A0866A] text-xs tracking-widest mb-3 block">02</span>
               <h3 className="text-lg mb-3" style={{ fontWeight: 400 }}>
-                おくつろぎください
+                おあがりください。
               </h3>
               <p className="text-[#6B5E52] text-sm leading-relaxed">
                 玄関で靴を脱いで、ほっとひと息。
@@ -167,7 +178,7 @@ export default function Home() {
             className="text-white text-xl md:text-4xl tracking-[0.2em] text-center leading-relaxed"
             style={{ fontWeight: 300 }}
           >
-            住宅地の中の、<br className="md:hidden" />居場所みたいな美容室。
+            街の中の、<br className="md:hidden" />居場所みたいな美容室。
           </p>
         </div>
       </section>
@@ -300,11 +311,11 @@ export default function Home() {
               </div>
               <div className="bg-white/70 rounded p-6 border border-[#D4C5B0]">
                 <p className="text-[#2D2926] text-base leading-relaxed mb-2">
-                  お近くにお住いの方は一度お声がけください。
+                  近くに住んでいるなら、ふらっとどうぞ。
                 </p>
                 <p className="text-[#6B5E52] text-sm leading-relaxed">
-                  お散歩ついでに立ち寄るような感覚で来てもらえたら嬉しいです。
-                  お気軽にご相談ください。
+                  お散歩ついでに、ちょっと立ち寄るような感覚で来てもらえたら嬉しいです。
+                  ご予約なしでもお気軽にご相談ください。
                 </p>
               </div>
             </div>
@@ -316,8 +327,8 @@ export default function Home() {
                   <span className="text-[#A0866A] text-xs tracking-widest uppercase">Address</span>
                 </div>
                 <p className="text-sm text-[#6B5E52] leading-loose">
-                  〒981-0962<br />
-                  宮城県仙台市青葉区水の森1-12-2
+                  〒XXX-XXXX<br />
+                  〇〇県〇〇市△△町1-2-3
                 </p>
               </div>
 
@@ -352,6 +363,35 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+
+      {/* ══════════════════════════════
+          LINE予約
+      ══════════════════════════════ */}
+      <section className="py-24 px-8 md:px-16 text-center bg-[#FAF8F5]">
+        <p className="text-[#A0866A] text-xs tracking-[0.3em] uppercase mb-6">Reserve</p>
+        <h2
+          className="text-2xl md:text-3xl mb-4 text-[#2D2926]"
+          style={{ fontWeight: 400 }}
+        >
+          ご予約はLINEから
+        </h2>
+        <p className="text-[#6B5E52] text-sm leading-relaxed mb-10">
+          希望日時・メニューをメッセージで送ってください。<br />
+          お気軽にどうぞ。
+        </p>
+        <a
+          href="https://line.me/R/ti/p/@415uyvcc"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-3 bg-[#06C755] text-white px-10 py-5 rounded-full text-sm tracking-widest hover:bg-[#05b04c] transition-colors"
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.630 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.630 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+          </svg>
+          LINEで予約する
+        </a>
       </section>
 
       {/* ══════════════════════════════
