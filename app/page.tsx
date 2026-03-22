@@ -89,10 +89,10 @@ export default function Home() {
             <div className="border-t border-[#D4C5B0] pt-6">
               <span className="text-[#A0866A] text-xs tracking-widest mb-3 block">01</span>
               <h3 className="text-lg mb-3" style={{ fontWeight: 400 }}>
-                木のぬくもりに<br />包まれた空間
+                光のぬくもりに<br />包まれた空間
               </h3>
               <p className="text-[#6B5E52] text-sm leading-relaxed">
-                古い梁や床板を活かした、居心地のいいサロン。
+                古民家をそのまま活かした、居心地のいいサロン。
                 気取らず、ありのままでいられる場所です。
               </p>
             </div>
@@ -112,7 +112,7 @@ export default function Home() {
             <div className="border-t border-[#D4C5B0] pt-6">
               <span className="text-[#A0866A] text-xs tracking-widest mb-3 block">02</span>
               <h3 className="text-lg mb-3" style={{ fontWeight: 400 }}>
-                おあがりください。
+                おくつろぎください
               </h3>
               <p className="text-[#6B5E52] text-sm leading-relaxed">
                 玄関で靴を脱いで、ほっとひと息。
@@ -167,7 +167,7 @@ export default function Home() {
             className="text-white text-xl md:text-4xl tracking-[0.2em] text-center leading-relaxed"
             style={{ fontWeight: 300 }}
           >
-            街の中の、<br className="md:hidden" />居場所みたいな美容室。
+            住宅地の中の、<br className="md:hidden" />居場所みたいな美容室。
           </p>
         </div>
       </section>
@@ -300,11 +300,11 @@ export default function Home() {
               </div>
               <div className="bg-white/70 rounded p-6 border border-[#D4C5B0]">
                 <p className="text-[#2D2926] text-base leading-relaxed mb-2">
-                  近くに住んでいるなら、ふらっとどうぞ。
+                  お近くにお住いの方は一度お声がけください。
                 </p>
                 <p className="text-[#6B5E52] text-sm leading-relaxed">
-                  お散歩ついでに、ちょっと立ち寄るような感覚で来てもらえたら嬉しいです。
-                  ご予約なしでもお気軽にご相談ください。
+                  お散歩ついでに立ち寄るような感覚で来てもらえたら嬉しいです。
+                  お気軽にご相談ください。
                 </p>
               </div>
             </div>
@@ -316,8 +316,8 @@ export default function Home() {
                   <span className="text-[#A0866A] text-xs tracking-widest uppercase">Address</span>
                 </div>
                 <p className="text-sm text-[#6B5E52] leading-loose">
-                  〒XXX-XXXX<br />
-                  〇〇県〇〇市△△町1-2-3
+                  〒981-0962<br />
+                  宮城県仙台市青葉区水の森1-12-2
                 </p>
               </div>
 
