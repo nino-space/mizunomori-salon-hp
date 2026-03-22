@@ -89,7 +89,7 @@ export default function Home() {
             <div className="border-t border-[#D4C5B0] pt-6">
               <span className="text-[#A0866A] text-xs tracking-widest mb-3 block">01</span>
               <h3 className="text-lg mb-3" style={{ fontWeight: 400 }}>
-                光のぬくもりに<br />包まれた空間
+                光のぬくもりに包まれた空間
               </h3>
               <p className="text-[#6B5E52] text-sm leading-relaxed">
                 古民家をそのまま活かした、居心地のいいサロン。
