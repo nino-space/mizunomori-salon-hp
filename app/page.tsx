@@ -8,7 +8,7 @@ import { Scissors, Clock, MapPin, Phone, Mail, Instagram, Baby } from "lucide-re
 // ─────────────────────────────────────────────────────────────
 const IMG = {
   // ヒーロー：施術中の手元・髪のクローズアップ
-  hero:       "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1920&h=1080&fit=crop&q=80",
+  hero: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1920&h=1080&fit=crop&q=80",
   // コンセプト01：ハサミ・コームのクローズアップ
   concept1:   "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&h=600&fit=crop&q=80",
   // コンセプト02：スリッパ・足元（靴を脱ぐ雰囲気）
@@ -45,7 +45,7 @@ export default function Home() {
             src={IMG.hero}
             alt="施術中の手元"
             fill
-            className="object-cover object-[center_20%]"
+            className="object-cover object-center"
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#1a1410]/80 via-[#1a1410]/30 to-[#1a1410]/10" />
