@@ -1,21 +1,33 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import type { Metadata } from "next";
+import { Noto_Serif_JP } from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const notoSerifJP = Noto_Serif_JP({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+});
 
-export const metadata = {
-  title: '美容室（仮） | 古民家でくつろぎの時間を',
-  description: '古民家を改装したアットホームな美容室。靴を脱いで上がって、くつろぎの時間をお過ごしください。',
-}
+export const metadata: Metadata = {
+  title: "Mizunomori Salon | 水の森の美容室",
+  description: "靴を脱いで、ゆっくりどうぞ。キッズスペースもあるので、お子さま連れでも気兼ねなく。仙台市青葉区水の森のアットホームな美容室です。",
+  openGraph: {
+    title: "Mizunomori Salon | 水の森の美容室",
+    description: "靴を脱いで、ゆっくりどうぞ。キッズスペースもあるので、お子さま連れでも気兼ねなく。仙台市青葉区水の森のアットホームな美容室です。",
+    url: "https://mizunomori-salon-hp.vercel.app",
+    siteName: "Mizunomori Salon",
+    locale: "ja_JP",
+    type: "website",
+  },
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="ja">
-      <body className={inter.className}>{children}</body>
+      <body className={notoSerifJP.className}>{children}</body>
     </html>
-  )
+  );
 }
